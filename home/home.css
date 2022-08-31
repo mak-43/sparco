@@ -78,19 +78,41 @@
 .navbar-links li{
     list-style: none;
 }
-.navbar-links li a{
+.navbar-links ul li a{
     display: block;
     text-decoration: none;
     color: black;
     padding: 1rem;
 }
-.navbar a:hover{
+.navbar-links ul a:hover{
     color:aliceblue
 }
 .login{
     margin-left: 50px;
 }
-
+.contact li a{
+    background-color: black;
+    color:white;
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+}
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
 
 @media only screen and (max-width:570px) {
     .section-1 {
@@ -129,10 +151,5 @@
     display: block;
    }
 }
-@media only screen and (min-width:571px){
-    .nav{
-        height: 3rem;
-        
-    }
-}
+
 
