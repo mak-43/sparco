@@ -607,5 +607,127 @@ img-area img{
 .bd-img img{
   height: 600px;
   object-fit: cover;
+}
+/* ------our products-------- */
+.our-products{
+  background-color: var(--naviblue);
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.our-products h2{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+/* -------global partner */
 
+.partner h2{
+  font-size: 35px;
+  font-weight: bold;
+  background-color: #fdc911;
+  margin: 25px 0px ;
+  display: inline-block;
+  padding: 15px 20px;
+
+}
+.partner .grid img{
+  height: 200px;
+}
+.partner .carosel{
+  display: flex;
+  margin-bottom: 35px;
+}
+/* ------contact------- */
+.contact-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  gap:30px;
+  padding: 40px 50px;
+  background-color: #1d2e3d;
+  color:white
+}
+.contact-div h2{
+  margin-bottom: 30px;
+}
+.contact-div .top{
+  border:3px solid #fdc911;
+  padding:25px;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  word-wrap: break-word;
+  
+}
+
+.y{
+  color:#fdc911;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.thick{
+  font-weight: 1;
+}
+.i{
+  padding: 15px 35px;
+  margin: 20px 0;
+  border-radius: 4px;
+  width: 100%;
+}
+.contact-divv{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+gap:15px;
+}
+.s{
+  width: f;
+  background-color: #fdc911;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+/* ----recent news---- */
+.news-button{
+  display: inline-block;
+  text-decoration: none;
+
+  margin-top: 40px;
+}
+
+.recent-news{
+  margin:50px ;
+}
+/* ---- recent news-----*/
+.news-div img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.news-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+  gap:20px
+}
+.news-card{
+  border: 1px solid rgba(221, 203, 203, 0.671);
+  border-radius: 5px;
+  height:auto ;
+}
+.news-content{
+  padding: 20px;
+  line-height: 30px;
+}
+.news-y{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.news-y:hover{
+  color: #fdc911;
 }
