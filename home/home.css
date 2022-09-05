@@ -775,3 +775,33 @@ gap:15px;
 .footer-top p:hover{
   color:#fdc911
 }
+@media screen and (max-width:786px)
+{ 
+  .footer ,.project-container,.news-div,.welcome{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+ 
+  .contact-div,.bangla-map,.carosel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+/* @media screen and (max-width:992px)and (min-width:787)
+{
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .news-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width:1200px)
+{
+  
+} */
